@@ -36,7 +36,8 @@ export default function RootLayout() {
       <Stack
         screenOptions={{
           animation: "none", // Disables default transition animation
-          contentStyle: { backgroundColor: "#161622" }, // Ensures consistent background
+          contentStyle: { backgroundColor: "#161622" },
+          // Ensures consistent background
           // unmountOnBlur: false,
         }}
       >

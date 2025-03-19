@@ -27,6 +27,14 @@ export default function HomeScreen() {
             <Text style={styles.buttonText}>Continue with Email</Text>
           </Link>
         </Pressable>
+        <Pressable
+          style={styles.button}
+          //   onPress={() => console.log("Button pressed")}
+        >
+          <Link href="/home">
+            <Text style={styles.buttonText}>Go to home</Text>
+          </Link>
+        </Pressable>
       </View>
     </SafeAreaView>
   );
